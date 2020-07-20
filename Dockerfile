@@ -3,7 +3,7 @@ FROM ruby:2.6-slim
 WORKDIR /srv/slate
 
 VOLUME /srv/slate/source
-EXPOSE 4567
+EXPOSE 4567 35729
 
 COPY . /srv/slate
 
