@@ -21,7 +21,7 @@ set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
 # Activate auto reload
-activate :livereload, js_host: '0.0.0.0'
+activate :livereload, host: '0.0.0.0'
 
 # Activate the syntax highlighter
 activate :syntax
